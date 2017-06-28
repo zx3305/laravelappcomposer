@@ -1,9 +1,9 @@
 {
-	"name": "phppackage/paytest",
+	"name": "laravelappcomposer/paytest",
 	"type": "project",
 	"autoload": {
 		"psr-4": {
-			"PayTest\\": "/src/"
+			"PayTest\\": "src/"
 		}
 	},
     "require-dev": {
