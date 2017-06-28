@@ -18,7 +18,7 @@ class CommodityBusiness{
 	public function sale(CommodityEntity $commodity, $stock, $money){
 		if($commodity->stock < $stock){
 			throw new CommodityExceptions('商品库存不足'.$stock, 12);
-		}else if(($commodity->money * $stock) != $money){
+		}else if(($commodity->price * $stock) != $money){
 			throw new CommodityExceptions('出售价格不合理'.$money, 13);
 		}
 		$commodity->stock = $commodity->stock - $stock;

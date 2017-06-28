@@ -5,7 +5,7 @@ use App\Models\MModel;
 /**
  * 商品实体（伪代码）
  */
-class CommodityOrm extends MModel{
+class CommodityOrm {
 	public function saveEntity(){
 		
 	}

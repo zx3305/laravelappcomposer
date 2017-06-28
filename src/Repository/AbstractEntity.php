@@ -7,6 +7,7 @@ abstract class  AbstractEntity{
 		if(!is_string($value)){
 			throw new Exception("实体属性只能是字符串");
 		}
+echo $key;		
 		$this->$key = $value;
 	}
 }

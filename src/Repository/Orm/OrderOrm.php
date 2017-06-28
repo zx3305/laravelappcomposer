@@ -6,7 +6,8 @@ use App\Models\MModel;
  * 订单数据存储（这里就只写伪代码了）
  */
 
-class OrderOrm extends Model{
+// class OrderOrm extends Model{
+class OrderOrm {
 	protected $table = "order_test";
 
 	public $money = 1000;

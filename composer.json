@@ -6,6 +6,11 @@
 			"Paytest\\": "src/"
 		}
 	},
+    "autoload-dev": {
+        "psr-4": {
+            "Unittest\\": "tests/"
+        }
+    },
     "require-dev": {
 	    "phpunit/phpunit": "~5.0"
     }
