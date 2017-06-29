@@ -1,6 +1,6 @@
 <?php
 namespace Paytest\Contact\Rules;
-use App\Http\Requests\Request;
+use  Paytest\Contact\Request;
 
 /**
  * http请求数据验证器

@@ -22,7 +22,8 @@ class OrderController extends Controller {
 		$orderDto = new OrderDto();
 
 		if($userType == 1){				// 消费者访问订单数据
-			return $this->successJsonResponse($orderDto->getCustomerOrder($orderQuery->getOrder($orderId)));			
+			$data = $orderDto->getCustomerOrder($orderQuery->getOrder($orderId));	
+	    	return response()->json($data);		
 		}				
 	}
 
@@ -38,7 +39,7 @@ class OrderController extends Controller {
 		$orderManager = new orderManager();
 		$orderId = $orderManager->add($commodityId, $stock, $money);
 
-		return $this->successJsonResponse(['orderId'=>$orderId]);
+		return response()->json(['orderId'=>$orderId]);
 	}
 
 	/**

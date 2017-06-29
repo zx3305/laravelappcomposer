@@ -1,9 +1,9 @@
 <?php
 namespace Paytest\Business\Exceptions;
 
-use App\Exceptions\CustomizeException;
+use Exception;
 
-class CommodityExceptions  extends CustomizeException{
+class CommodityExceptions  extends Exception{
 	public function __construct($msg, $code=1){
 		parent::__construct($msg, '20'.$code);
 	}

@@ -1,4 +1,4 @@
-### 概述
+### 关于制作基于laravel composer 业务包的概述
 &emsp;&emsp;laravel框架却是最优秀的框架之一，两年使用下来也碰到了很多的问题，特别是但业务系统慢慢变大时，laravel并没有明确指引代码该如何优雅的组织管理。拜读了infoq主编“王概凯”聊聊架构的专栏系列，收益匪浅，对于如何使用laravel框架构建业务系统有了如下愚见。
 [参考：如何写好代码](http://www.infoq.com/cn/articles/an-informal-discussion-on-architecture-part08)
 #### 代码示例图
