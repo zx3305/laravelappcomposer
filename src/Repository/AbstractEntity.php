@@ -4,10 +4,9 @@ use Exception;
 
 abstract class  AbstractEntity{
 	public function __set($key, $value){
-		if(!is_string($value)){
+		if(is_object($value) || is_array($value)){
 			throw new Exception("实体属性只能是字符串");
 		}
-echo $key;		
 		$this->$key = $value;
 	}
 }

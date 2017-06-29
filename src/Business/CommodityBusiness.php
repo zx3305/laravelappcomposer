@@ -7,7 +7,6 @@ use Paytest\Repository\Entity\CommodityEntity;
 /**
  * 商品处理业务逻辑
  */
-
 class CommodityBusiness{
 	/**
 	 * 商品售出
