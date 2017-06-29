@@ -47,6 +47,8 @@ Services ---- 服务管理<br/>
 ##### 添加服务提供者
 &emsp;&emsp; Paytest\PayServiceProvider::class,
 
+##### 友情书籍推荐
+[聊聊架构](http://www.infoq.com/cn/news/2017/04/book-talk-architecture)
 
 
 
